@@ -1,0 +1,21 @@
+/*configura a posiçao do mostrador da vez dos jogadores*/
+#mostradordeplayer{
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    width: 252px;
+    height:80px;
+}
+/*configura o tamanho dos espaços onde os jogadores vao clicar*/
+.espaco{
+  width: 80px;
+  height:80px;
+  border:2px solid #000;
+  float: left;
+  text-align: center;
+}
+/*configura a div onde os espaços estao para ficar organizada como um jogo da velha*/
+.tabuleiro{
+  width:252px;
+  height:252px;
+  margin: auto;
