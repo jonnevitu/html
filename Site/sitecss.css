@@ -1,0 +1,73 @@
+<style>
+.tamanho{
+width: 1000px;
+height: 750px;
+}
+
+.roupas{
+  width: 300px;
+  height:400px;
+  float: left;
+  }
+
+  .espaco{
+    width: 300px;
+    height:500px;
+    float: left;
+    }
+
+    body{
+      font-family: 'Arial';
+    }
+
+    *{
+      margin: 0px;
+      padding: 0px;
+    }
+    .abas_nav ul li{
+      float: left;
+
+    }
+</style>
+.abas_nav{
+  width: 1000px;
+  height:1000px;
+  margin:10px;
+  background-color: #000;
+  position: relative;
+}
+
+.abas_nav ul{
+  list-style: none;
+}
+
+
+.abas_nav label{
+  width: 300px;
+  height: 20px;
+  background-color: #363b48;
+  display: block;
+  color:#fff;
+  cursor: pointer;
+  text-align: center;
+}
+
+.abas_rd:checked ~ label{
+  background-color: #e54e43;
+}
+.abas_rd{
+  display: none;
+}
+
+.content{
+  border-top: 50px; solid #e54e43;
+  background-color: #fff;
+  display: none;
+  position: absolute;
+  height: 320px;
+  width: 1200px;
+  left: 0;
+}
+.abas_rd:checked ~ .content{
+  display: block;
+}
